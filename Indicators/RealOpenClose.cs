@@ -4,10 +4,10 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace gambcl.ATAS.Indicators
+namespace LunarTick.ATAS.Indicators
 {
     [DisplayName("RealOpenClose")]
-    [Category("gambcl-ATAS-Indicators")]
+    [Category("LunarTick-ATAS-Indicators")]
     public class RealOpenClose : Indicator
     {
         #region Enums

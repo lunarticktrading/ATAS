@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0-windows</TargetFramework>
-    <RootNamespace>gambcl.ATAS.Indicators</RootNamespace>
+    <RootNamespace>LunarTick.ATAS.Indicators</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -36,7 +36,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy $(OutDir)\$(AssemblyName).dll $(UserProfile)\Documents\ATAS\Indicators\" />
+    <Exec Command="copy $(OutDir)\$(AssemblyName).dll $(UserProfile)\AppData\Roaming\ATAS\Indicators\" />
   </Target>
 
 </Project>

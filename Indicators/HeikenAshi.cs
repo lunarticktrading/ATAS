@@ -3,10 +3,10 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Drawing;
 
-namespace gambcl.ATAS.Indicators
+namespace LunarTick.ATAS.Indicators
 {
     [DisplayName("HeikenAshi")]
-    [Category("gambcl-ATAS-Indicators")]
+    [Category("LunarTick-ATAS-Indicators")]
     public class HeikenAshi : RealOpenClose
     {
         #region Enums

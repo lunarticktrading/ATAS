@@ -1,15 +1,15 @@
 ﻿using ATAS.Indicators;
 using ATAS.Indicators.Drawing;
 using ATAS.Indicators.Technical;
-using gambcl.ATAS.Indicators.Helpers;
+using LunarTick.ATAS.Indicators.Helpers;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using FilterColor = ATAS.Indicators.FilterColor;
 
-namespace gambcl.ATAS.Indicators
+namespace LunarTick.ATAS.Indicators
 {
     [DisplayName("MACloud")]
-    [Category("gambcl-ATAS-Indicators")]
+    [Category("LunarTick-ATAS-Indicators")]
     public class MACloud : Indicator
     {
         #region Enums

@@ -1,15 +1,15 @@
 ﻿using ATAS.Indicators;
 using ATAS.Indicators.Drawing;
-using gambcl.ATAS.Indicators.Helpers;
+using LunarTick.ATAS.Indicators.Helpers;
 using OFT.Rendering.Context;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Drawing;
 
-namespace gambcl.ATAS.Indicators
+namespace LunarTick.ATAS.Indicators
 {
     [DisplayName("PaperFeet")]
-    [Category("gambcl-ATAS-Indicators")]
+    [Category("LunarTick-ATAS-Indicators")]
     public class PaperFeet : LaguerreRSI
     {
         #region Enums

@@ -7,10 +7,10 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Drawing;
 
-namespace gambcl.ATAS.Indicators
+namespace LunarTick.ATAS.Indicators
 {
     [DisplayName("VolumeDeltaDots")]
-    [Category("gambcl-ATAS-Indicators")]
+    [Category("LunarTick-ATAS-Indicators")]
     public class VolumeDeltaDots : Indicator
     {
         #region Enums

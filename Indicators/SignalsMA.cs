@@ -1,14 +1,14 @@
 ﻿using ATAS.Indicators;
 using ATAS.Indicators.Drawing;
 using ATAS.Indicators.Technical;
-using gambcl.ATAS.Indicators.Helpers;
+using LunarTick.ATAS.Indicators.Helpers;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace gambcl.ATAS.Indicators
+namespace LunarTick.ATAS.Indicators
 {
     [DisplayName("SignalsMA")]
-    [Category("gambcl-ATAS-Indicators")]
+    [Category("LunarTick-ATAS-Indicators")]
     public class SignalsMA : Indicator
     {
         #region Enums

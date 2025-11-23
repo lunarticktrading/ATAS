@@ -1,7 +1,7 @@
 using System.IO;
 using System.Reflection;
 
-namespace gambcl.ATAS.Indicators.Helpers
+namespace LunarTick.ATAS.Indicators.Helpers
 {
     public static class SoundPackHelper
 	{

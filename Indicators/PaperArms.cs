@@ -1,17 +1,17 @@
 ﻿using ATAS.Indicators;
 using ATAS.Indicators.Drawing;
-using gambcl.ATAS.Indicators.Helpers;
+using LunarTick.ATAS.Indicators.Helpers;
 using OFT.Rendering.Context;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 using Utils.Common.Logging;
-using static gambcl.ATAS.Indicators.HeikenAshi;
+using static LunarTick.ATAS.Indicators.HeikenAshi;
 
-namespace gambcl.ATAS.Indicators
+namespace LunarTick.ATAS.Indicators
 {
     [DisplayName("PaperArms")]
-    [Category("gambcl-ATAS-Indicators")]
+    [Category("LunarTick-ATAS-Indicators")]
     public class PaperArms : MACloud, IPropertiesEditorOwner
     {
         #region Enums
@@ -47,8 +47,8 @@ namespace gambcl.ATAS.Indicators
 
         private bool _dummyValue = false;
         private bool _forceRecalculate = false;
-        private gambcl.ATAS.Indicators.HeikenAshi _ha = new();
-        private gambcl.ATAS.Indicators.PaperFeet _paperFeet = new();
+        private LunarTick.ATAS.Indicators.HeikenAshi _ha = new();
+        private LunarTick.ATAS.Indicators.PaperFeet _paperFeet = new();
         private readonly ValueDataSeries _enterLongSeries = new("EnterLong")
         {
             VisualType = VisualMode.UpArrow,

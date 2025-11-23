@@ -7,10 +7,10 @@ using System.ComponentModel.DataAnnotations;
 using System.Drawing;
 using Utils.Common.Logging;
 
-namespace gambcl.ATAS.Indicators
+namespace LunarTick.ATAS.Indicators
 {
     [DisplayName("MACloudDots")]
-    [Category("gambcl-ATAS-Indicators")]
+    [Category("LunarTick-ATAS-Indicators")]
     public class MACloudDots : Indicator
     {
         #region Enums

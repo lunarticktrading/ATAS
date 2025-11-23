@@ -5,12 +5,12 @@ using OFT.Rendering.Tools;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Drawing;
-using static gambcl.ATAS.Indicators.HeikenAshi;
+using static LunarTick.ATAS.Indicators.HeikenAshi;
 
-namespace gambcl.ATAS.Indicators
+namespace LunarTick.ATAS.Indicators
 {
     [DisplayName("HeikenAshiDots")]
-    [Category("gambcl-ATAS-Indicators")]
+    [Category("LunarTick-ATAS-Indicators")]
     public class HeikenAshiDots : Indicator
     {
         #region Enums
@@ -31,7 +31,7 @@ namespace gambcl.ATAS.Indicators
 
         #region Members
 
-        private readonly gambcl.ATAS.Indicators.HeikenAshi _ha = new();
+        private readonly LunarTick.ATAS.Indicators.HeikenAshi _ha = new();
         private decimal _displayLevel = DefaultDisplayLevel;
         private int _displayWidth = DefaultDisplayWidth;
         private Color _haDotsBullishColor = DefaultColors.Green;
