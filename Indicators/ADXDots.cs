@@ -9,7 +9,7 @@ using System.Drawing;
 
 namespace LunarTick.ATAS.Indicators
 {
-    [DisplayName("ADXDots")]
+    [DisplayName("ADX Dots")]
     [Category("LunarTick-ATAS-Indicators")]
     public class ADXDots : Indicator
     {

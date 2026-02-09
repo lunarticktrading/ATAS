@@ -9,7 +9,7 @@ using System.Drawing;
 
 namespace LunarTick.ATAS.Indicators
 {
-    [DisplayName("VolumeDeltaDots")]
+    [DisplayName("VolumeDelta Dots")]
     [Category("LunarTick-ATAS-Indicators")]
     public class VolumeDeltaDots : Indicator
     {

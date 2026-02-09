@@ -9,7 +9,7 @@ using static LunarTick.ATAS.Indicators.HeikenAshi;
 
 namespace LunarTick.ATAS.Indicators
 {
-    [DisplayName("HeikenAshiDots")]
+    [DisplayName("Heiken Ashi Dots")]
     [Category("LunarTick-ATAS-Indicators")]
     public class HeikenAshiDots : Indicator
     {

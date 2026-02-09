@@ -9,7 +9,7 @@ using Utils.Common.Logging;
 
 namespace LunarTick.ATAS.Indicators
 {
-    [DisplayName("MACloudDots")]
+    [DisplayName("MA Cloud Dots")]
     [Category("LunarTick-ATAS-Indicators")]
     public class MACloudDots : Indicator
     {

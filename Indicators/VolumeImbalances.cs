@@ -1,11 +1,8 @@
 ﻿using ATAS.Indicators;
 using ATAS.Indicators.Drawing;
-using ATAS.Indicators.Technical;
 using LunarTick.ATAS.Indicators.Helpers;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.Diagnostics.Metrics;
-using Utils.Common.Logging;
 using FilterColor = ATAS.Indicators.FilterColor;
 
 namespace LunarTick.ATAS.Indicators
@@ -53,8 +50,8 @@ namespace LunarTick.ATAS.Indicators
             IsHidden = true,
             IgnoredByAlerts = true
         };
-        private int _lineWidth = 4;
-        private int _dotWidth = 8;
+        private int _lineWidth = 6;
+        private int _dotWidth = 6;
 
         #endregion
 

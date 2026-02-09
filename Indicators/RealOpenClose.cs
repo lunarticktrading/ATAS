@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LunarTick.ATAS.Indicators
 {
-    [DisplayName("RealOpenClose")]
+    [DisplayName("Real Open/Close")]
     [Category("LunarTick-ATAS-Indicators")]
     public class RealOpenClose : Indicator
     {

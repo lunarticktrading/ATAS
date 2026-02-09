@@ -5,7 +5,7 @@ using System.Drawing;
 
 namespace LunarTick.ATAS.Indicators
 {
-    [DisplayName("HeikenAshi")]
+    [DisplayName("Heiken Ashi")]
     [Category("LunarTick-ATAS-Indicators")]
     public class HeikenAshi : RealOpenClose
     {

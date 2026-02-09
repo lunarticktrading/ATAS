@@ -8,7 +8,7 @@ using FilterColor = ATAS.Indicators.FilterColor;
 
 namespace LunarTick.ATAS.Indicators
 {
-    [DisplayName("MACloud")]
+    [DisplayName("MA Cloud")]
     [Category("LunarTick-ATAS-Indicators")]
     public class MACloud : Indicator
     {

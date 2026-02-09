@@ -8,7 +8,7 @@ using System.Drawing;
 
 namespace LunarTick.ATAS.Indicators
 {
-    [DisplayName("LaguerreRSI")]
+    [DisplayName("Laguerre RSI")]
     [Category("LunarTick-ATAS-Indicators")]
     public class LaguerreRSI : Indicator, IPropertiesEditorOwner
     {

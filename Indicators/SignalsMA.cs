@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LunarTick.ATAS.Indicators
 {
-    [DisplayName("SignalsMA")]
+    [DisplayName("Signals MA")]
     [Category("LunarTick-ATAS-Indicators")]
     public class SignalsMA : Indicator
     {

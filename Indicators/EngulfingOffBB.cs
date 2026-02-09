@@ -125,6 +125,7 @@ namespace LunarTick.ATAS.Indicators
             DataSeries.ForEach(ds => ds.Clear());
 
             _bb = new() { Period = _bbPeriod, Width = _bbStdDevMultiplier };
+            _lastBar = 0;
         }
 
         protected override void OnCalculate(int bar, decimal value)
